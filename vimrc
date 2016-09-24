@@ -6,6 +6,8 @@ nnoremap gV `[v`]
 inoremap jk <ESC>
 " toggle gundo (super undo)
 nnoremap <leader>u :GundoToggle<CR>
+" This lets me go directly to a line number
+nnoremap <CR> G
 
 " COLORS AND INDENTS########################################
 filetype plugin indent on " load filetype-specific indent files
